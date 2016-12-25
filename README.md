@@ -2,6 +2,8 @@
 
 VersionEye API Client Library for node.js
 
+[![Build Status](https://travis-ci.org/miyajan/versioneye-api-client.svg?branch=master)](https://travis-ci.org/miyajan/versioneye-api-client)
+
 ## Description
 
 See https://www.versioneye.com/api/ for API documents.
