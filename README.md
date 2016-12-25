@@ -1,2 +1,42 @@
 # versioneye-api-client
-VersionEye API Client for node.js
+
+VersionEye API Client Library for node.js
+
+## Description
+
+See https://www.versioneye.com/api/ for API documents.
+
+## Install
+
+```
+npm install versioneye-api-client
+```
+
+## Usage
+
+```javascript
+const VersionEye = require('versioneye-api-client');
+
+const apiKey = 'your api token';
+const versioneye = new VersionEye(apiKey);
+versioneye.me.show().then(json => {
+   console.log(json['username']); // print your username 
+});
+```
+
+## Contribution
+
+1. Fork
+2. Create a feature branch
+3. Commit your changes
+4. Rebase your local changes against the master branch
+5. Run `npm test`
+6. Create new Pull Request
+
+## License
+
+MIT
+
+## Author
+
+[miyajan](https://github.com/miyajan): Jumpei Miyata miyajan777@gmail.com
