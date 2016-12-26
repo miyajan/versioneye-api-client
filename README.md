@@ -2,6 +2,7 @@
 
 VersionEye API Client Library for node.js
 
+![Node.js Version Support](https://img.shields.io/badge/Node.js%20support-v4,v6-brightgreen.svg)
 [![Build Status](https://travis-ci.org/miyajan/versioneye-api-client.svg?branch=master)](https://travis-ci.org/miyajan/versioneye-api-client)
 [![dependencies Status](https://david-dm.org/miyajan/versioneye-api-client/status.svg)](https://david-dm.org/miyajan/versioneye-api-client)
 
