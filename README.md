@@ -31,6 +31,18 @@ versioneye.me.show().then(json => {
 });
 ```
 
+### API key
+
+The API key is required to use this API client. There are two types of API key, the personal API key and the organization API key.
+
+You can find the personal API key in your setting page (https://www.versioneye.com/settings/api).
+
+And the organization API key is in organization's setting page (https://www.versioneye.com/organisations/<your organization's name>/apikey). With this APIkey, you can create, read, update and delete projects in the organization through the VersionEye's API. This API key is only visible for the members of the "Owners" team.
+
+### Promises
+
+The API methods will return Promises. The response json object will be passed to ```then``` method when the request succeeds. The Error object, with the [Response](https://developer.mozilla.org/en/docs/Web/API/Response) object of the Fetch API as the message, will be passed to ```catch``` method when the request fails.
+
 ## Contribution
 
 1. Fork
