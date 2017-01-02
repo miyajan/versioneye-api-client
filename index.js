@@ -20,14 +20,41 @@ class VersionEye {
      * @param {?string=} opt_baseUri Base URI (default: https://www.versioneye.com/api/v2)
      */
     constructor(apiKey, opt_baseUri) {
+        /**
+         * @type {!Products}
+         */
         this.products = new Products(apiKey, opt_baseUri);
+        /**
+         * @type {!Services}
+         */
         this.services = new Services(apiKey, opt_baseUri);
+        /**
+         * @type {!Projects}
+         */
         this.projects = new Projects(apiKey, opt_baseUri);
+        /**
+         * @type {!Organisations}
+         */
         this.organisations = new Organisations(apiKey, opt_baseUri);
+        /**
+         * @type {!Sessions}
+         */
         this.sessions = new Sessions(apiKey, opt_baseUri);
+        /**
+         * @type {!Me}
+         */
         this.me = new Me(apiKey, opt_baseUri);
+        /**
+         * @type {!Users}
+         */
         this.users = new Users(apiKey, opt_baseUri);
+        /**
+         * @type {!GitHub}
+         */
         this.github = new GitHub(apiKey, opt_baseUri);
+        /**
+         * @type {!Security}
+         */
         this.security = new Security(apiKey, opt_baseUri);
     }
 }
