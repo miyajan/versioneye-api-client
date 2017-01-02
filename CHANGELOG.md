@@ -1,3 +1,8 @@
+### 0.1.3 (2017-01-02)
+
+* Fix README.md
+* Fix jsdoc for properties of clients in VersionEye class
+
 ### 0.1.2 (2016-12-27)
 
 * Fix README.md
