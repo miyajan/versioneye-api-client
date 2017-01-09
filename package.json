@@ -14,7 +14,7 @@
     "ci": "npm run test:unit:cover",
     "test": "npm run test:unit",
     "test:unit": "./node_modules/.bin/mocha --require intelli-espower-loader test/unit",
-    "test:unit:cover": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require intelli-espower-loader test/unit",
+    "test:unit:cover": "./node_modules/.bin/istanbul --include-all-sources cover ./node_modules/.bin/_mocha --report lcovonly -- --require intelli-espower-loader test/unit",
     "test:integration": "./node_modules/.bin/mocha --require intelli-espower-loader --timeout 10000 test/integration"
   },
   "repository": {
