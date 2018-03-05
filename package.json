@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "form-data": "^2.1.2",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^2.1.1"
   }
 }
